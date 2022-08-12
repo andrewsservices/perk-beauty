@@ -1,0 +1,54 @@
+{
+  "sections": {
+    "1660141482fa827042": {
+      "type": "rich-text",
+      "blocks": {
+        "166014148239f62c31-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Perk Beauty Presents Planty!<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "166014148239f62c31-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pure, powerful plant extracts, bountiful antioxidants, essential vitamins, fatty acids and nourishing oils formulated to transform your skin to healthier, brighter and more youthful skin.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166014148239f62c31-0",
+        "166014148239f62c31-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ shop.brand.cover_image }}",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "1660141482fa827042",
+    "image_banner"
+  ]
+}

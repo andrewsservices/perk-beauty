@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16601416916f7cdf4e": {
+      "type": "rich-text",
+      "blocks": {
+        "16601416915ca24985-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>About Us<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16601416915ca24985-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are a skincare brand OBSESSED with Clean, Nourishing and Effective Ingredients<\/p><p>Because everything we put on our skin absorbs into our bodies, we obsess about delivering highly effective, pure, quality formulas. We go through a painstakingly rigorous process of selecting ingredients proven by science to deliver effective results. At the end, what you get, are formulas containing powerful antioxidants, vitamins, fatty acids and nourishing plant extracts & oils that deliver the best protection and nourishment for your skin. <\/p><p>Unfortunately, the typical conventional and drugstore skincare products contain harsh chemicals and even toxic ingredients that are unsafe for skin, especially sensitive skin prone to irritation as you see in the image below. The image below is from someone who suffered from contact dermatitis, rashes, and eczema for over a decade - using conventional, big brands. After using our natural body moisturizer, this person's skin recovered fully (after about 4 uses). Rashes and irritation all gone and skin transformed into glowing and healthy skin. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16601416915ca24985-0",
+        "16601416915ca24985-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16602479538388a108": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Arms1.jpg",
+        "image_2": "shopify:\/\/shop_images\/Legs1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16601416916f7cdf4e",
+    "16602479538388a108"
+  ]
+}
