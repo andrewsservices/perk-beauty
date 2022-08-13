@@ -106,23 +106,14 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          },
-          "be067229-9814-4b60-b467-7ce16588c55d": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
+              "text": "Free Shipping On All Orders $30+",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0",
-          "be067229-9814-4b60-b467-7ce16588c55d"
+          "announcement-bar-0"
         ],
         "settings": {
         }
@@ -131,8 +122,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
-          "logo_width": 90,
+          "logo_width": 250,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
@@ -145,26 +135,6 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          }
-        },
-        "block_order": [
-          "footer-0",
-          "footer-1"
-        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,

@@ -384,7 +384,10 @@
               alt: logo_alt
             }}
           {%- else -%}
-            <span class="h2">{{ shop.name }}</span>
+            <div class="header-logo">
+              <h1 style="color:green;margin-bottom:0;font-weight:bold;font-size:46px">{{shop.name}}</h1>
+              <p style="color:#73a767">Skincare with Healing Benefits</p>
+            </div>
           {%- endif -%}
         </a>
     {%- if request.page_type == 'index' -%}
